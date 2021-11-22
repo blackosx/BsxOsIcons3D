@@ -19,7 +19,7 @@ Please refer to [OpenCore beauty treatment](https://dortania.github.io/OpenCore-
 **Using this theme**<br>
 This repository contains a Blackosx directory with a sub-directory BsxOsIcons3D which contains all necessary ICNS files for the theme.
 
-However, please note that this theme also contains multiple backgrounds at different sizes. You will want to select your background image from the thirteen different sized files in the /Blackosx/Backgrounds directory. Choose the one for your display resolution that OpenCanopy uses and move it in with the other .icns files. You can then remove the Backgrounds directory as these files will generally be the largest and due to limited space on the EFI System Partition you won't want to store redundant image files.
+The background image is 5K resolution so will centre on smaller display sizes.
 
 If you don't have a EFI/OC/Resources/Image/Blackosx directory in EFI/OC/Resources/Image/<br>
 - then add the Blackosx directory to EFI/OC/Resources/Image/ directory in your systems EFI System Partition.
